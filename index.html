@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <div id="score"></div>
-    <div id="correct_ans"></div>
-    <div id="avg_per"></div>
+
+    <div id="main">
+        <header>
+            <h1 class="main-heading">Pre-Quiz of javascript (20 Chapters)</h1>
+        </header>
+
+
+        <div class="score1">Your Score</div>
+        <div class="score1 score2" id="score-per"></div>
+
+
+        <div class="score1">Correct Answers</div>
+        <div class="score1 score2" id="correct-ent"></div>
+
+        <div id="answers">
+            <div class="ans-head-cont">
+                <h1 class="ans-head">Questions with correct answers</h1>
+            </div>
+            Question # 1 <br> What is the keyword that displays a message? <br> Ans: alert. <br>
+            <hr> Question # 2 <br> var $10; This is a legal variable. <br> Ans: true. <br>
+            <hr> Question # 3 <br> var a = "10" - "5"; "What will be print out?" <br> Ans: 5 <br>
+            <hr> Question # 4 <br> Is javascript case sensitive? <br> Ans: yes <br>
+            <hr> Question # 5 <br> && and || are _________ operators. <br> Ans: logical <br>
+            <hr> Question # 6 <br> This is a ________ operator. <br> comparison <br>
+            <hr> Question # 7 <br> Using the keyword pop, you can remove the last element of an array. <br> Ans: true <br>
+            <hr> Question # 8 <br> Which statement is true about slice method. <br> 1. In slice method, the second index number
+            specifies the last element to be copeid. <br> 2. The number specifies the index number of the element after the
+            last element to be copied. <br> Ans: 2 <br>
+            <hr> Question # 9 <br> var x = 50; <br> var y = x++; <br> what is the value of y? <br> Ans: 50 <br>
+            <hr> Question # 10 <br> How many times will following loop run. <br> for (var i = 0; i
+            < 3; i++) { <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; for(var j = 0; j
+                < 4; j++) { <br>
+                    &nbsp;&nbsp;&nbsp; } <br> } <br> Ans: 12 <br>
+
+
+        </div>
+
+    </div>
     <script src="app.js"></script>
 </body>
+
 </html>

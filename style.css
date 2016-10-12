@@ -1,0 +1,55 @@
+header {
+    width: 100%;
+    background-color: darkcyan;
+    width: 1300px;
+    overflow: hidden;
+    margin-left: -20px;
+    margin-top: -8px;
+    height: 200px;
+}
+
+.main-heading {
+    text-align: center;
+    position: relative;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+.score1 {
+    border: 2px solid black;
+    width: 75%;
+    margin: auto;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 600;
+    background-color: darkcyan;
+}
+.score2 {
+    margin-top: 0px;    
+}
+
+#answers {
+    margin: 20px;
+    padding: 20px;
+    background-color: silver;
+    font-size: 22px;
+    line-height: 2em;
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
+}
+.ans-head-cont {
+    text-align: center;
+    background-color: darkcyan; 
+    height: 100px;
+    width: 1207px;
+    margin-left: -20px;
+    margin-top: -20px;
+    overflow: hidden;
+}
+.ans-head {
+
+}
