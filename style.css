@@ -10,8 +10,8 @@ header {
 
 .main-heading {
     text-align: center;
-    position: relative;
-    font-size: 70px;
+    font-size: 60px;
+    margin-top: 60px;
     font-family: sans-serif;
 }
 
@@ -34,14 +34,14 @@ header {
 
 #answers {
     margin: 20px;
-    padding: 20px;
+    padding: 40px;
     background-color: silver;
     font-size: 22px;
     line-height: 2em;
     letter-spacing: 1.5px;
     font-family: sans-serif;
 }
-.ans-head-cont {
+/*.ans-head-cont {
     text-align: center;
     background-color: darkcyan; 
     height: 100px;
@@ -49,7 +49,16 @@ header {
     margin-left: -20px;
     margin-top: -20px;
     overflow: hidden;
-}
+}*/
 .ans-head {
-
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+    border: 2px solid black;
+    width: 75%;
+    line-height: 2em;
+    background-color: darkcyan;
+}
+.sub-answer {
+    margin-top: 100px;
 }
