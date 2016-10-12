@@ -64,5 +64,5 @@ checkQues(ques15, ans15);
 
 
 var avgPer = (score * 100) / 15;
-document.getElementById("correct-ent").innerHTML = "Your Correct Entries = " + correctAns;
+document.getElementById("correct-ent").innerHTML = correctAns;
 document.getElementById("score-per").innerHTML = avgPer + " %" ;
